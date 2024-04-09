@@ -1,0 +1,40 @@
+.highlight {
+  background-color: yellow; /* Highlight color for the text */
+  border-radius: 5px; /* Rounded corners for the highlight */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for highlight appearance */
+}
+
+/* Style for the text that is currently being read */
+.current-word {
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.8); /* Glowing effect for the current word */
+}
+
+/* Optional: Add additional styles for the text-to-speech controls if they are part of the content script */
+.tts-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000; /* Ensure the controls are above other content */
+}
+
+.tts-button {
+  background-color: #4CAF50; /* Green background for buttons */
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tts-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional: Add styles for the options/settings page if they are injected into the content */
+.options-container {
+  /* Styles for the options container */
+}
+
+/* Add any additional CSS needed for the content script's functionality and appearance */
