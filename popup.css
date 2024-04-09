@@ -1,0 +1,48 @@
+/* popup.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+#playButton, #pauseButton, #stopButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#playButton:hover, #pauseButton:hover, #stopButton:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+#textToRead {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.highlightStyle {
+  color: #ff0000; /* Red */
+  background-color: #ffff00; /* Yellow */
+}
+
+/* Add additional styling as needed for your popup */

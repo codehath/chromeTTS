@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div id="options-container">
+        <h1>Text-to-Speech Options</h1>
+        <form id="options-form">
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="en-US">English (US)</option>
+                <option value="en-GB">English (UK)</option>
+                <option value="es-ES">Spanish (Spain)</option>
+                <option value="de-DE">German</option>
+                <!-- Add more languages as needed -->
+            </select>
+
+            <label for="pitch">Pitch:</label>
+            <input type="range" id="pitch" min="0" max="2" step="0.1" value="1">
+
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="0.5" max="2" step="0.1" value="1">
+
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+
+            <label for="highlightColor">Highlight Color:</label>
+            <input type="color" id="highlightColor" value="#FFFF00">
+
+            <button type="button" id="saveButton">Save</button>
+        </form>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
